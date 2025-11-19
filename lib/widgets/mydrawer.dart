@@ -7,7 +7,7 @@ class MyDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
         width: MediaQuery.of(context).size.width * 0.5,
-        backgroundColor: Colors.green,
+        backgroundColor: const Color.fromARGB(255, 126, 55, 241),
         elevation: 20,
         child: Column(
           children: <Widget>[
